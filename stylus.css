@@ -14,8 +14,18 @@ header{
     width: 100%;
     display: flex;
     justify-content:space-between;
-    background-color: rgb(71, 182, 7);
+    /* background-color: rgb(71, 182, 7); */
     
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('images/rows-red-seats-theater.jpg') no-repeat;
+    background-size: cover;
+    
+
 }
 
 .logo{
@@ -25,7 +35,7 @@ header{
 .navigation a{
     position: relative;
     font-size: 12px;
-    color: black;
+    color: white;
     text-decoration: none;
     margin-left: 20px;
 }
